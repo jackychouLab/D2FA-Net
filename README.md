@@ -1,6 +1,6 @@
 # D<sup>2</sup>FA-Net: Decoupled Deformable Frequency-Aware Network for Radar Object Detection
 
-We are very grateful for the source code provided by [`RODNet`](https://github.com/yizhou-wang/RODNet), which our project extends upon. This is the official implementation of our STCT-Net papers. 
+We are very grateful for the source code provided by [`RODNet`](https://github.com/yizhou-wang/RODNet), which our project extends upon. This is the official implementation of our D<sup>2</sup>FA-Net papers. 
 
 ![D<sup>2</sup>FA-Net Overview](./docs/images/1.jpg?raw=true)
 
@@ -79,15 +79,6 @@ mv $New_cruw_devkit-1.1.dist-info {Your Environment Path}/lib/python3.10/site-pa
 
 ## Prepare data for CRUW dataset
 
-Download UAVRadar dataset[`Key:6s6v`](https://pan.baidu.com/s/178Fo9nRX2tq0h4-4xu69RA). 
-```commandline
-cd $UAVRadar_root
-cat UAVRadar.tar.gz.part_* | tar -xzvf - -C ./
-rm -r UAVRadar.tar.gz.part_*
-```
-
-## Prepare data for RODNet
-
 Download [ROD2021 dataset](https://www.cruwdataset.org/download#h.mxc4upuvacso). 
 Follow [this script](https://github.com/yizhou-wang/RODNet/blob/master/tools/prepare_dataset/reorganize_rod2021.sh) to reorganize files as below.
 
@@ -138,6 +129,6 @@ python forward_train.py
 
 ## Model Weights
 
-The optimal weights of STCT-Net on the UAVRadar dataset are available for download from [`Key:4ux8`](https://pan.baidu.com/s/1_41JZXfCZzIfRiFHd7xUZA).
+The optimal weights of D<sup>2</sup>FANet on the CRUW dataset are available for download from [`Key:54wb`](https://pan.baidu.com/s/1SkKBCTAxJy4TFeXwSnuEaQ).
 
 ###### If you encounter any issues with code or data reproduction, please contact me at jackychou_lab@126.com.
