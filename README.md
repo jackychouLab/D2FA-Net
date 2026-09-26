@@ -2,14 +2,12 @@
 
 We are very grateful for the source code provided by [`RODNet`](https://github.com/yizhou-wang/RODNet), which our project extends upon. This is the official implementation of our D<sup>2</sup>FA-Net papers. 
 
-![D<sup>2</sup>FA-Net Overview](./docs/images/1.jpg?raw=true)
-
 Please cite our paper if this repository is helpful for your research:
 
 ```
 @article{D2FA-Net,
   title={D^{2}FA-Net: Decoupled Deformable Frequency-Aware Network for Radar Object Detection},
-  author={Zhou, Jianhong and Ke, Feng and Zhai, Yikui, and Jiang, Ziyi and Zhang, Xiu Yin and Gao, Feifei },
+  author={Zhou, Jianhong and Ke, Feng and Zhai, Yikui, and Jiang, Ziyi and Zhang, Xiu Yin and Gao, Feifei},
   journal={IEEE Transactions on Intelligent Transportation Systems},
   volume={-},
   number={-},
@@ -22,7 +20,7 @@ Please cite our paper if this repository is helpful for your research:
 ## Installation
 
 ```commandline
-cd $STCT-NET_ROOT
+cd $D2FA-Net_ROOT
 git clone https://github.com/jackychouLab/D2FA-Net.git
 ```
 
